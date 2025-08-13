@@ -5,11 +5,11 @@
 
 This project presents an intelligent conversational AI system designed for e-commerce platforms, combining Retrieval-Augmented Generation (RAG) with semantic intent routing. The system leverages LLaMA 3.3 via GROQ API to deliver contextually accurate responses by intelligently routing user queries between FAQ retrieval and dynamic SQL generation. Through web scraping of Flipkart data and dual-chain architecture, the chatbot provides both policy-based information retrieval and real-time product recommendations, enhancing user experience with natural language interfaces for complex e-commerce queries.
 
-![Watch Video](app/resources/Green%20and%20Orange%20Vibrant%20Animated%20AI%20and%20Machine%20Learning%20Presentation%20(2).mp4)
+![Watch Video](app/resources/Green%20and%20Orange%20Vibrant%20Animated%20AI%20and%20Machine%20Learning%20Presentation.gif)
 
 
 
-**Key Achievements:**
+**Key Achievements:**git 
 - 🎯 Dual-intent routing with 95%+ accuracy using semantic classification
 - 💾 Real-time database querying with natural language to SQL conversion
 - 🔍 Vector-based FAQ retrieval using ChromaDB for instant policy responses
