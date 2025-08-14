@@ -7,3 +7,4 @@ selenium
 bs4
 lxml
 semantic_router
+pysqlite3-binary
