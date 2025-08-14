@@ -1,16 +1,19 @@
-import streamlit as st
-from router import router
-from faq import ingest_faq_data, faq_chain
-from pathlib import Path
-from sql import sql_chain
 import sys
-
 # Patch to use pysqlite3 instead of system sqlite3
 try:
     __import__("pysqlite3")
     sys.modules["sqlite3"] = sys.modules.pop("pysqlite3")
 except ImportError:
     pass
+
+import streamlit as st
+from router import router
+from faq import ingest_faq_data, faq_chain
+from pathlib import Path
+from sql import sql_chain
+
+
+
 
 
 faqs_path = Path(__file__).parent / "resources/faq_data.csv"
